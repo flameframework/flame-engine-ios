@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "flame.h"
 
 @interface AppDelegate ()
 
@@ -14,11 +15,21 @@
 
 @implementation AppDelegate
 
+// http://stackoverflow.com/questions/25783282/how-to-create-an-empty-application-in-xcode-6-without-storyboard
+
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    navController = [[UINavigationController alloc] init];
+    self.window.rootViewController = navController;
+    
+    [OpenInboxAction perform];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -49,6 +60,7 @@
 
 #pragma mark - Core Data stack
 
+@synthesize navController;
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
