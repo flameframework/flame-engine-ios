@@ -11,9 +11,7 @@
 		D099DDF41A782BAC00151DA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D099DDF31A782BAC00151DA2 /* AppDelegate.m */; };
 		D099DDF71A782BAC00151DA2 /* flame_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D099DDF51A782BAC00151DA2 /* flame_ios.xcdatamodeld */; };
 		D099DDFA1A782BAC00151DA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D099DDF91A782BAC00151DA2 /* ViewController.m */; };
-		D099DDFD1A782BAC00151DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D099DDFB1A782BAC00151DA2 /* Main.storyboard */; };
 		D099DDFF1A782BAC00151DA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D099DDFE1A782BAC00151DA2 /* Images.xcassets */; };
-		D099DE021A782BAC00151DA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D099DE001A782BAC00151DA2 /* LaunchScreen.xib */; };
 		D099DE0E1A782BAC00151DA2 /* flame_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D099DE0D1A782BAC00151DA2 /* flame_iosTests.m */; };
 		D099DE1A1A782C6200151DA2 /* actions in Resources */ = {isa = PBXBuildFile; fileRef = D099DE191A782C6200151DA2 /* actions */; };
 		D099DE1F1A782C9600151DA2 /* flame.m in Sources */ = {isa = PBXBuildFile; fileRef = D099DE1C1A782C9600151DA2 /* flame.m */; };
@@ -39,9 +37,7 @@
 		D099DDF61A782BAC00151DA2 /* flame_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = flame_ios.xcdatamodel; sourceTree = "<group>"; };
 		D099DDF81A782BAC00151DA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D099DDF91A782BAC00151DA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D099DDFC1A782BAC00151DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D099DDFE1A782BAC00151DA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D099DE011A782BAC00151DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D099DE071A782BAC00151DA2 /* flame-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flame-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D099DE0C1A782BAC00151DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D099DE0D1A782BAC00151DA2 /* flame_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flame_iosTests.m; sourceTree = "<group>"; };
@@ -100,9 +96,7 @@
 				D099DDF31A782BAC00151DA2 /* AppDelegate.m */,
 				D099DDF81A782BAC00151DA2 /* ViewController.h */,
 				D099DDF91A782BAC00151DA2 /* ViewController.m */,
-				D099DDFB1A782BAC00151DA2 /* Main.storyboard */,
 				D099DDFE1A782BAC00151DA2 /* Images.xcassets */,
-				D099DE001A782BAC00151DA2 /* LaunchScreen.xib */,
 				D099DDF51A782BAC00151DA2 /* flame_ios.xcdatamodeld */,
 				D099DDEE1A782BAC00151DA2 /* Supporting Files */,
 			);
@@ -220,8 +214,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D099DE1A1A782C6200151DA2 /* actions in Resources */,
-				D099DDFD1A782BAC00151DA2 /* Main.storyboard in Resources */,
-				D099DE021A782BAC00151DA2 /* LaunchScreen.xib in Resources */,
 				D099DDFF1A782BAC00151DA2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,25 +258,6 @@
 			targetProxy = D099DE081A782BAC00151DA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D099DDFB1A782BAC00151DA2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D099DDFC1A782BAC00151DA2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D099DE001A782BAC00151DA2 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D099DE011A782BAC00151DA2 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D099DE0F1A782BAC00151DA2 /* Debug */ = {
