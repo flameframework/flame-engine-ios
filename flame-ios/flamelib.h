@@ -9,7 +9,8 @@
 #ifndef flame_ios_flamelib_h
 #define flame_ios_flamelib_h
 
-#include "ListAction.h"
-
+#include "flamelib/DomainObject.h"
+#include "flamelib/ListAction.h"
+#include "flamelib/ListViewController.h"
 
 #endif
