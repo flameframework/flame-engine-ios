@@ -9,13 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "ListAction.h"
 #import "ListViewController.h"
-#import "AppDelegate.h"
+#import "AppDelegate.h" // TODO: remove dependency from app delegate?
 
 @implementation ListAction
 
 + (void) performObjects: (NSArray*) objects {
     ListViewController* listViewController = [[ListViewController alloc] init];
-    listViewController.objects = objects;
+//    listViewController.objects = objects;
+    listViewController.view.backgroundColor = [UIColor redColor];
     AppDelegate* appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     [appDelegate.navController pushViewController:listViewController animated:YES];
     

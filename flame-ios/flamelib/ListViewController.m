@@ -9,9 +9,6 @@
 #import "ListViewController.h"
 #import "DomainObject.h"
 
-@interface ListViewController ()
-
-@end
 
 @implementation ListViewController
 
