@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D01ACFC81A7BB11A009C62C4 /* flame-engine-ios.h in Headers */ = {isa = PBXBuildFile; fileRef = D01ACFC71A7BB11A009C62C4 /* flame-engine-ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D01ACFC81A7BB11A009C62C4 /* FlameEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = D01ACFC71A7BB11A009C62C4 /* FlameEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D01ACFCE1A7BB11A009C62C4 /* FlameEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01ACFC21A7BB11A009C62C4 /* FlameEngine.framework */; };
 		D01ACFD51A7BB11A009C62C4 /* flame_engine_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D01ACFD41A7BB11A009C62C4 /* flame_engine_iosTests.m */; };
 		D0488F791A7BB372000EB183 /* DefaultNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = D0488F6D1A7BB372000EB183 /* DefaultNavigator.h */; };
 		D0488F7A1A7BB372000EB183 /* DefaultNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = D0488F6E1A7BB372000EB183 /* DefaultNavigator.m */; };
-		D0488F7B1A7BB372000EB183 /* DomainObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D0488F6F1A7BB372000EB183 /* DomainObject.h */; };
-		D0488F7E1A7BB372000EB183 /* ListAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D0488F721A7BB372000EB183 /* ListAction.h */; };
+		D0488F7B1A7BB372000EB183 /* DomainObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D0488F6F1A7BB372000EB183 /* DomainObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0488F7E1A7BB372000EB183 /* ListAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D0488F721A7BB372000EB183 /* ListAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0488F7F1A7BB372000EB183 /* ListAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D0488F731A7BB372000EB183 /* ListAction.m */; };
 		D0488F801A7BB372000EB183 /* ListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0488F741A7BB372000EB183 /* ListViewController.h */; };
 		D0488F811A7BB372000EB183 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0488F751A7BB372000EB183 /* ListViewController.m */; };
-		D0488F821A7BB372000EB183 /* Navigator.h in Headers */ = {isa = PBXBuildFile; fileRef = D0488F761A7BB372000EB183 /* Navigator.h */; };
-		D0488F831A7BB372000EB183 /* NavigatorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D0488F771A7BB372000EB183 /* NavigatorFactory.h */; };
+		D0488F821A7BB372000EB183 /* Navigator.h in Headers */ = {isa = PBXBuildFile; fileRef = D0488F761A7BB372000EB183 /* Navigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0488F831A7BB372000EB183 /* NavigatorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D0488F771A7BB372000EB183 /* NavigatorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0488F841A7BB372000EB183 /* NavigatorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D0488F781A7BB372000EB183 /* NavigatorFactory.m */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		D01ACFC21A7BB11A009C62C4 /* FlameEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlameEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01ACFC61A7BB11A009C62C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D01ACFC71A7BB11A009C62C4 /* flame-engine-ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flame-engine-ios.h"; sourceTree = "<group>"; };
+		D01ACFC71A7BB11A009C62C4 /* FlameEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlameEngine.h; sourceTree = "<group>"; };
 		D01ACFCD1A7BB11A009C62C4 /* flame-engine-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flame-engine-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01ACFD31A7BB11A009C62C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D01ACFD41A7BB11A009C62C4 /* flame_engine_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flame_engine_iosTests.m; sourceTree = "<group>"; };
@@ -73,9 +73,9 @@
 		D01ACFB81A7BB11A009C62C4 = {
 			isa = PBXGroup;
 			children = (
-				D01ACFC41A7BB11A009C62C4 /* flame-engine-ios */,
 				D01ACFD11A7BB11A009C62C4 /* flame-engine-iosTests */,
 				D01ACFC31A7BB11A009C62C4 /* Products */,
+				D01ACFC41A7BB11A009C62C4 /* flame-engine-ios */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +101,7 @@
 				D0488F761A7BB372000EB183 /* Navigator.h */,
 				D0488F771A7BB372000EB183 /* NavigatorFactory.h */,
 				D0488F781A7BB372000EB183 /* NavigatorFactory.m */,
-				D01ACFC71A7BB11A009C62C4 /* flame-engine-ios.h */,
+				D01ACFC71A7BB11A009C62C4 /* FlameEngine.h */,
 				D01ACFC51A7BB11A009C62C4 /* Supporting Files */,
 			);
 			path = "flame-engine-ios";
@@ -139,13 +139,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0488F801A7BB372000EB183 /* ListViewController.h in Headers */,
+				D0488F7B1A7BB372000EB183 /* DomainObject.h in Headers */,
+				D01ACFC81A7BB11A009C62C4 /* FlameEngine.h in Headers */,
 				D0488F821A7BB372000EB183 /* Navigator.h in Headers */,
 				D0488F831A7BB372000EB183 /* NavigatorFactory.h in Headers */,
-				D0488F7E1A7BB372000EB183 /* ListAction.h in Headers */,
 				D0488F791A7BB372000EB183 /* DefaultNavigator.h in Headers */,
-				D01ACFC81A7BB11A009C62C4 /* flame-engine-ios.h in Headers */,
-				D0488F7B1A7BB372000EB183 /* DomainObject.h in Headers */,
+				D0488F7E1A7BB372000EB183 /* ListAction.h in Headers */,
+				D0488F801A7BB372000EB183 /* ListViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
