@@ -15,8 +15,7 @@
 
 + (void) performObjects: (NSArray*) objects {
     ListViewController* listViewController = [[ListViewController alloc] init];
-//    listViewController.objects = objects;
-    listViewController.view.backgroundColor = [UIColor redColor];
+    listViewController.objects = objects;
     AppDelegate* appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     [appDelegate.navController pushViewController:listViewController animated:YES];
     
