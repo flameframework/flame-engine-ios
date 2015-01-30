@@ -1,19 +1,19 @@
 //
-//  flame_iosTests.m
-//  flame-iosTests
+//  flame_engine_iosTests.m
+//  flame-engine-iosTests
 //
-//  Created by Michel Vollebregt on 27-01-15.
-//  Copyright (c) 2015 ORGANIZATIONNAME. All rights reserved.
+//  Created by Michel Vollebregt on 30-01-15.
+//  Copyright (c) 2015 flameframework. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface flame_iosTests : XCTestCase
+@interface flame_engine_iosTests : XCTestCase
 
 @end
 
-@implementation flame_iosTests
+@implementation flame_engine_iosTests
 
 - (void)setUp {
     [super setUp];
