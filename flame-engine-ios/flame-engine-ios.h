@@ -16,4 +16,7 @@ FOUNDATION_EXPORT const unsigned char flame_engine_iosVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <flame_engine_ios/PublicHeader.h>
 
-
+#import "DomainObject.h"
+#import "ListAction.h"
+#import "Navigator.h"
+#import "NavigatorFactory.h"

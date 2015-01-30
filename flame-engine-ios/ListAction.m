@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "flamelib.h"
+#import "ListAction.h"
+#import "ListViewController.h"
+#import "NavigatorFactory.h"
 
 @implementation ListAction
 
