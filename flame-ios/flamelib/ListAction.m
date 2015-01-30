@@ -7,18 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ListAction.h"
-#import "ListViewController.h"
-#import "AppDelegate.h" // TODO: remove dependency from app delegate?
+#import "flamelib.h"
 
 @implementation ListAction
 
 + (void) performObjects: (NSArray*) objects {
     ListViewController* listViewController = [[ListViewController alloc] init];
     listViewController.objects = objects;
-    AppDelegate* appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    [appDelegate.navController pushViewController:listViewController animated:YES];
-    
+    [[NavigatorFactory sharedNavigator] pushViewController:listViewController];
 }
 
 @end

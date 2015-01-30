@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "generated.h"
+#import "flamelib.h"
 
 @interface AppDelegate ()
 
@@ -22,13 +23,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
-    navController = [[UINavigationController alloc] init];
-    self.window.rootViewController = navController;
+    self.window.rootViewController = [NavigatorFactory sharedNavigator];
     
-    [OpenInboxAction perform];
+    [OpenInboxAction perform]; // TODO: this should be configurable in the interaction model
     
     [self.window makeKeyAndVisible];
     return YES;
@@ -60,7 +59,6 @@
 
 #pragma mark - Core Data stack
 
-@synthesize navController;
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;

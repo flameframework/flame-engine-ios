@@ -12,5 +12,7 @@
 #include "flamelib/DomainObject.h"
 #include "flamelib/ListAction.h"
 #include "flamelib/ListViewController.h"
+#include "flamelib/Navigator.h"
+#include "flamelib/NavigatorFactory.h"
 
 #endif
