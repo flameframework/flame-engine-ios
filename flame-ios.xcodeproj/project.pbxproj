@@ -14,8 +14,8 @@
 		D099DDFF1A782BAC00151DA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D099DDFE1A782BAC00151DA2 /* Images.xcassets */; };
 		D099DE0E1A782BAC00151DA2 /* flame_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D099DE0D1A782BAC00151DA2 /* flame_iosTests.m */; };
 		D099DE1A1A782C6200151DA2 /* actions in Resources */ = {isa = PBXBuildFile; fileRef = D099DE191A782C6200151DA2 /* actions */; };
-		D099DE1F1A782C9600151DA2 /* flame.m in Sources */ = {isa = PBXBuildFile; fileRef = D099DE1C1A782C9600151DA2 /* flame.m */; };
 		D099DE201A782C9600151DA2 /* flamelib.m in Sources */ = {isa = PBXBuildFile; fileRef = D099DE1E1A782C9600151DA2 /* flamelib.m */; };
+		D099DE231A7B846E00151DA2 /* generated.m in Sources */ = {isa = PBXBuildFile; fileRef = D099DE221A7B846E00151DA2 /* generated.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +44,10 @@
 		D099DE171A782C4100151DA2 /* flamelib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flamelib; sourceTree = "<group>"; };
 		D099DE181A782C5500151DA2 /* generated */ = {isa = PBXFileReference; lastKnownFileType = folder; path = generated; sourceTree = "<group>"; };
 		D099DE191A782C6200151DA2 /* actions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = actions; sourceTree = "<group>"; };
-		D099DE1B1A782C9600151DA2 /* flame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flame.h; sourceTree = "<group>"; };
-		D099DE1C1A782C9600151DA2 /* flame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flame.m; sourceTree = "<group>"; };
 		D099DE1D1A782C9600151DA2 /* flamelib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flamelib.h; sourceTree = "<group>"; };
 		D099DE1E1A782C9600151DA2 /* flamelib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flamelib.m; sourceTree = "<group>"; };
+		D099DE211A7B846E00151DA2 /* generated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = generated.h; sourceTree = "<group>"; };
+		D099DE221A7B846E00151DA2 /* generated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = generated.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +106,8 @@
 		D099DDEE1A782BAC00151DA2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D099DE1B1A782C9600151DA2 /* flame.h */,
-				D099DE1C1A782C9600151DA2 /* flame.m */,
+				D099DE211A7B846E00151DA2 /* generated.h */,
+				D099DE221A7B846E00151DA2 /* generated.m */,
 				D099DE1D1A782C9600151DA2 /* flamelib.h */,
 				D099DE1E1A782C9600151DA2 /* flamelib.m */,
 				D099DDEF1A782BAC00151DA2 /* Info.plist */,
@@ -235,9 +235,9 @@
 				D099DDF41A782BAC00151DA2 /* AppDelegate.m in Sources */,
 				D099DE201A782C9600151DA2 /* flamelib.m in Sources */,
 				D099DDF11A782BAC00151DA2 /* main.m in Sources */,
-				D099DE1F1A782C9600151DA2 /* flame.m in Sources */,
 				D099DDFA1A782BAC00151DA2 /* ViewController.m in Sources */,
 				D099DDF71A782BAC00151DA2 /* flame_ios.xcdatamodeld in Sources */,
+				D099DE231A7B846E00151DA2 /* generated.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

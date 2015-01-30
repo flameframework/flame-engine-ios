@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "flame.h"
+#import "generated.h"
 
 @interface AppDelegate ()
 
