@@ -8,7 +8,7 @@
 
 #import "ListViewController.h"
 #import "DomainObject.h"
-#import "NavigatorFactory.h"
+
 
 @implementation ListViewController
 
@@ -46,19 +46,6 @@
     cell.textLabel.text = ((NSObject<DomainObject>*) [self.objects objectAtIndex: indexPath.item]).label;
     return cell;
 }
-
-#pragma mark - Event handling
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-
-    NSObject* selectedObject = [self.objects objectAtIndex: indexPath.item];
-    [[NavigatorFactory sharedNavigator] addToContext: selectedObject];
-     
-    // TODO: call default action
-    
-    
-}
-
 
 
 /*

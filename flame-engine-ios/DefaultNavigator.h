@@ -10,11 +10,8 @@
 #import <UIKit/UIKit.h>
 
 #import "Navigator.h"
-#import "Context.h"
 
 @interface DefaultNavigator : UINavigationController<Navigator>
-
-@property(nonatomic, retain) Context* context;
 
 - (void) pushViewController: (UIViewController*) viewController;
 

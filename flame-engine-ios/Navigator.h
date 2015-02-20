@@ -15,8 +15,6 @@
 
 - (void) pushViewController: (UIViewController*) viewController;
 
-- (void) addToContext: (NSObject*) object;
-
 @end
 
 #endif
