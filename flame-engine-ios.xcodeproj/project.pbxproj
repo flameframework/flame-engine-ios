@@ -20,6 +20,8 @@
 		D0488F821A7BB372000EB183 /* Navigator.h in Headers */ = {isa = PBXBuildFile; fileRef = D0488F761A7BB372000EB183 /* Navigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0488F831A7BB372000EB183 /* NavigatorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D0488F771A7BB372000EB183 /* NavigatorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0488F841A7BB372000EB183 /* NavigatorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D0488F781A7BB372000EB183 /* NavigatorFactory.m */; };
+		D0CAB8C01A7EB35E002C544C /* Context.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CAB8BE1A7EB35E002C544C /* Context.h */; };
+		D0CAB8C11A7EB35E002C544C /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CAB8BF1A7EB35E002C544C /* Context.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D0488F761A7BB372000EB183 /* Navigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Navigator.h; sourceTree = "<group>"; };
 		D0488F771A7BB372000EB183 /* NavigatorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigatorFactory.h; sourceTree = "<group>"; };
 		D0488F781A7BB372000EB183 /* NavigatorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigatorFactory.m; sourceTree = "<group>"; };
+		D0CAB8BE1A7EB35E002C544C /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		D0CAB8BF1A7EB35E002C544C /* Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 		D01ACFC41A7BB11A009C62C4 /* flame-engine-ios */ = {
 			isa = PBXGroup;
 			children = (
+				D0CAB8BE1A7EB35E002C544C /* Context.h */,
+				D0CAB8BF1A7EB35E002C544C /* Context.m */,
 				D0488F6D1A7BB372000EB183 /* DefaultNavigator.h */,
 				D0488F6E1A7BB372000EB183 /* DefaultNavigator.m */,
 				D0488F6F1A7BB372000EB183 /* DomainObject.h */,
@@ -143,6 +149,7 @@
 				D01ACFC81A7BB11A009C62C4 /* FlameEngine.h in Headers */,
 				D0488F821A7BB372000EB183 /* Navigator.h in Headers */,
 				D0488F831A7BB372000EB183 /* NavigatorFactory.h in Headers */,
+				D0CAB8C01A7EB35E002C544C /* Context.h in Headers */,
 				D0488F791A7BB372000EB183 /* DefaultNavigator.h in Headers */,
 				D0488F7E1A7BB372000EB183 /* ListAction.h in Headers */,
 				D0488F801A7BB372000EB183 /* ListViewController.h in Headers */,
@@ -248,6 +255,7 @@
 				D0488F841A7BB372000EB183 /* NavigatorFactory.m in Sources */,
 				D0488F7A1A7BB372000EB183 /* DefaultNavigator.m in Sources */,
 				D0488F7F1A7BB372000EB183 /* ListAction.m in Sources */,
+				D0CAB8C11A7EB35E002C544C /* Context.m in Sources */,
 				D0488F811A7BB372000EB183 /* ListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

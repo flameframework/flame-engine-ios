@@ -11,5 +11,6 @@
 @interface ListViewController : UITableViewController
 
 @property (nonatomic, retain) NSArray* objects;
+@property (nonatomic, retain) NSObject* defaultAction;
 
 @end
